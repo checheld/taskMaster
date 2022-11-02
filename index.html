@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task manager</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dragula.min.css">
+    <script async src="tm.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="list"></div>
+        <div class="add-list-container">
+            <button class="add-list">
+                <img src="img\plus.png" alt="plus" class="add-list-img">
+                <img src="img\plus2.png" alt="plus2" class="add-list-img-sec">
+                <span class="add-list-text">Добавьте еще одну колонку</span>
+            </button>
+        </div>
+        <form action="" class="list-form hidden">
+            <div><input type="text" value="" placeholder="Ввести заголовок списка" class="list-form-input form-input" required></div>
+            <div class="list-form-buttons-container buttons-container">
+                <button class="button list-form-button-add" type="submit">Добавить список</button>
+                <button class="list-form-button-close" type="button"><img src="img\kr.png" alt="kr" class="list-form-button-img"></button>
+            </div>
+        </form>
+    </div>
+    <script src="dragula.min.js"></script>
+</body>
+</html>
